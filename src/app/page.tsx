@@ -1,6 +1,8 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
 import TestimonialsCard from "@/components/TestimonialsCard";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 
@@ -12,7 +14,9 @@ export default function Home() {
       <hr className="border-zinc-700"></hr>
       <FeaturedCourses/>
       <WhyChooseUs/>
-       
+      <TestimonialsCard/>
+      <UpcomingWebinars/>
+      <Instructors/>
     </main>
   );
 }
