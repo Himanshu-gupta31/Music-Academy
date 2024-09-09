@@ -22,7 +22,7 @@ function Page() {
 
         
         <p className="text-center text-lg text-gray-500">
-          We're here to help with any questions about our courses, programs, or events. 
+          We&apos; re here to help with any questions about our courses, programs, or events. 
           Reach out and let us know how we can assist you in your musical journey.
         </p>
       </div>
